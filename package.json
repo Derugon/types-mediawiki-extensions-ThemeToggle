@@ -1,0 +1,24 @@
+{
+	"name": "types-mediawiki-extensions-themetoggle",
+	"version": "1.0.0",
+	"description": "TypeScript definitions for the the ThemeToggle MediaWiki extension.",
+	"types": "index.d.ts",
+	"scripts": {
+		"format": "eslint --fix *.d.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Derugon/types-mediawiki-extensions-ThemeToggle"
+	},
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Derugon/types-mediawiki-extensions-ThemeToggle/issues"
+	},
+	"dependencies": {
+		"types-mediawiki": "^2.0.0"
+	},
+	"devDependencies": {
+		"eslint-config-wikimedia": "^0.32.4",
+		"typescript": "^4.2.2"
+	}
+}
